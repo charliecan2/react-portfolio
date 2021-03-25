@@ -4,7 +4,7 @@ import '../Home/style.css';
 function ProjectCard(props){
     return(
         <div className="card mb-3">
-            <a href="https://jwhendershott.github.io/NightOut" target="_blank">
+            <a href={props.deployedLink} target="_blank">
                 <img src={props.imagesrc} className="card-img-top" alt={props.title} />
             </a> 
             <div className="card-body">

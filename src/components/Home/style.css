@@ -103,3 +103,11 @@ a:any-link {
 .giphy-embed{
     position:absolute
 }
+footer{
+    background-color: rgb(41, 41, 41);
+    padding: 25px;
+}
+.footer-text{
+    font-family: 'PT Serif', serif;
+    color: white;
+}
