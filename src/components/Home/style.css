@@ -78,7 +78,7 @@ a:any-link {
     text-align: center; color: white;
 }
 .project-description{
-    height: 200px;
+    height: fit-content;
 }
 .portfolio-header{
     font-family: 'PT Serif', serif;
