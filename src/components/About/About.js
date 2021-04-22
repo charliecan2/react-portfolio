@@ -32,22 +32,34 @@ function About(){
             </div>
             <div className="row">
                 <div className="col-sm-2 faIcon">
-                    <FontAwesomeIcon icon={faHtml5} className="htmlIcon"/>
+                    <a type="button" href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5" target="_blank">
+                        <FontAwesomeIcon icon={faHtml5} className="htmlIcon"/>
+                    </a>
                 </div>
                 <div className="col-sm-2 faIcon">
-                    <FontAwesomeIcon icon={faCss3} className="cssIcon"/>
+                    <a type="button" href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">
+                        <FontAwesomeIcon icon={faCss3} className="cssIcon"/>
+                    </a>
                 </div>
                 <div className="col-sm-2 faIcon">
-                    <FontAwesomeIcon icon={faJs} className="jsIcon"/>
+                    <a type="button" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
+                        <FontAwesomeIcon icon={faJs} className="jsIcon"/>
+                    </a>
                 </div>
                 <div className="col-sm-2 faIcon">
-                    <FontAwesomeIcon icon={faNode} className="nodeIcon"/>
+                    <a type="button" href="https://nodejs.org/en/about/" target="_blank">
+                        <FontAwesomeIcon icon={faNode} className="nodeIcon"/>
+                    </a>
                 </div>
                 <div className="col-sm-2 faIcon">
-                    <FontAwesomeIcon icon={faReact} className="reactIcon"/>
+                    <a type="button" href="https://reactjs.org/" target="_blank">
+                        <FontAwesomeIcon icon={faReact} className="reactIcon"/>
+                    </a>
                 </div>
                 <div className="col-sm-2 faIcon">
-                    <FontAwesomeIcon icon={faSass} className="sassIcon"/>
+                    <a type="button" href="https://sass-lang.com/" target="_blank">
+                        <FontAwesomeIcon icon={faSass} className="sassIcon"/>
+                    </a>
                 </div>
             </div>
         </div>
