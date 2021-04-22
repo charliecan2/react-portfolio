@@ -103,11 +103,58 @@ a:any-link {
 .giphy-embed{
     position:absolute
 }
-footer{
-    background-color: rgb(41, 41, 41);
-    padding: 25px;
-}
-.footer-text{
-    font-family: 'PT Serif', serif;
+.techHeader{
+    font-family: 'PT Serif',  serif;
+    font-weight: 700;
+    font-size: 48px;
+    text-align: center;
     color: white;
+}
+.htmlIcon, .cssIcon, .jsIcon, .nodeIcon, .reactIcon, .sassIcon {
+    line-height: 80px;
+    font-size: 72px;
+    width: 90%;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    transition-duration: 350ms;
+    transition-property: color;
+}
+.faIcon{
+    text-align: center;
+}
+.htmlIcon{
+    color: rgb(255, 100, 0);
+}
+.cssIcon{
+    color: rgb(0, 100, 255);
+}
+.jsIcon{
+    color :rgb(200, 200, 0);
+}
+.nodeIcon{
+    color: rgb(0, 130, 112);
+}
+.reactIcon{
+    color: rgb(20, 200, 255);
+}
+.sassIcon{
+    color: rgb(190, 95, 110);
+}
+.htmlIcon:hover{
+    color: rgb(255, 60, 0);
+}
+.cssIcon:hover{
+    color: rgb(0, 60, 255);
+}
+.jsIcon:hover{
+    color :rgb(200, 160, 0);
+}
+.nodeIcon:hover{
+    color: rgb(0, 90, 112);
+}
+.reactIcon:hover{
+    color: rgb(20, 160, 255);
+}
+.sassIcon:hover{
+    color: rgb(190, 35, 110);
 }

@@ -1,5 +1,7 @@
 import React from 'react';
 import '../Home/style.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faHtml5, faCss3, faJs, faNode, faReact, faSass } from '@fortawesome/free-brands-svg-icons';
 
 function About(){
     return(
@@ -21,6 +23,31 @@ function About(){
                             on the web. No matter what, any small business should have access to a good website of their own to stand out.
                         </p>
                     </div>
+                </div>
+            </div>
+            <div className="row">
+                <div className="col-md-12">
+                    <h3 className="techHeader">Technologies</h3>
+                </div>
+            </div>
+            <div className="row">
+                <div className="col-sm-2 faIcon">
+                    <FontAwesomeIcon icon={faHtml5} className="htmlIcon"/>
+                </div>
+                <div className="col-sm-2 faIcon">
+                    <FontAwesomeIcon icon={faCss3} className="cssIcon"/>
+                </div>
+                <div className="col-sm-2 faIcon">
+                    <FontAwesomeIcon icon={faJs} className="jsIcon"/>
+                </div>
+                <div className="col-sm-2 faIcon">
+                    <FontAwesomeIcon icon={faNode} className="nodeIcon"/>
+                </div>
+                <div className="col-sm-2 faIcon">
+                    <FontAwesomeIcon icon={faReact} className="reactIcon"/>
+                </div>
+                <div className="col-sm-2 faIcon">
+                    <FontAwesomeIcon icon={faSass} className="sassIcon"/>
                 </div>
             </div>
         </div>
