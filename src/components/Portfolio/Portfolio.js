@@ -16,6 +16,7 @@ function Portfolio(){
                     title={"Night Out"}
                     imagesrc={`${process.env.PUBLIC_URL}/assets/images/NightOut.png`}
                     description={"For the undecided couple, group of friends, or family members that don't know what to do on their Night Out. This web-based application lets users search for Breweries and Events by city. Not satifsfied with your results? Simply hit the search button again, as each search is randomized!"}
+                    tech={"HTML/CSS, JavaScript, jQuery, Bulma Framework, Google Fonts."}
                     githubLink={"https://github.com/jwhendershott/NightOut.git"}
                     deployedLink={"https://jwhendershott.github.io/NightOut"}
                     />
@@ -24,7 +25,8 @@ function Portfolio(){
                     <ProjectCard 
                     title={"Resu-Make"}
                     imagesrc={`${process.env.PUBLIC_URL}/assets/images/Resu-Make.png`}
-                    description={"Want an easy way to create a resume and easily access it on the web? That's where Resu-Make comes in! This application guides you in making a resume and allows for you to download it as a PDF after completion. You don't even have to be logged in to view your resume. Simply type in /resume/@youremail@example.com onto the url and you'll be directed to it!"}
+                    description={"Want an easy way to create a resume and easily access it on the web? That's where Resu-Make comes in! This application guides you in making a resume and allows for you to download it as a PDF after completion. You don't even have to be logged in to view your resume. Simply type in /resume/youremail@example.com onto the url and you'll be directed to it!"}
+                    tech={"React, Font Awesome, Bootstrap, Styled-Components, MongoDB."}
                     githubLink={"https://github.com/UT-final-project/group1-final-project"}
                     deployedLink={"https://resumake-pro.herokuapp.com/"}
                     />
@@ -36,6 +38,7 @@ function Portfolio(){
                     title={"Note Taker"}
                     imagesrc={`${process.env.PUBLIC_URL}/assets/images/NoteTaker.png`}
                     description={"An application that lets you take down notes with a Title and Body. Clicking on the floppy disk on the upper-right saves your note. Notes can be viewed again by clicking on them on the left-hand side of the screen."}
+                    tech={"HTML/CSS, Node.js, Express, Bootstrap."}
                     githubLink={"https://github.com/charliecan2/NoteTaker.git"}
                     deployedLink={"https://note-taker-express-cc.herokuapp.com/"}
                     />
@@ -45,6 +48,7 @@ function Portfolio(){
                     title={"Weather Board"}
                     imagesrc={`${process.env.PUBLIC_URL}/assets/images/WeatherBoard.png`}
                     description={"This Weather Board application lets you see the current Weather in any city you'd like. It even gives you a 5-day forecast to see what the upcoming week will be like! Don't see a city you're nearby? No worries. You can search for a new city in the search bar and your desired city will then show up in the city selection."}
+                    tech={"HTML/CSS, Javascript, jQuery, Open Weather API, Bootstrap."}
                     githubLink={"https://github.com/charliecan2/WeatherDashboard.git"}
                     deployedLink={"https://charliecan2.github.io/WeatherDashboard/"}
                     />
@@ -56,6 +60,7 @@ function Portfolio(){
                     title={"Employee Directory"}
                     imagesrc={`${process.env.PUBLIC_URL}/assets/images/EmployeeDirectory.png`}
                     description={"A react application that allows employers/managers to look up their employees. Users can sort their employees by their first/last name in alphabetical order and can even look up a specific employee by typing thier first/last name onto the search bar."}
+                    tech={"React, Javascript, Bootstrap."}
                     githubLink={"https://github.com/charliecan2/employee-directory"}
                     deployedLink={"https://charliecan2.github.io/employee-directory/"}
                     />
@@ -65,6 +70,7 @@ function Portfolio(){
                     title={"Workout Log"}
                     imagesrc={`${process.env.PUBLIC_URL}/assets/images/WorkoutTracker.png`}
                     description={"This Workout Tracker allows users to log their exercises and review what their workout session looked like. Total weight lifted is displayed on a bar chart and the total workout duration is shown as well. The user's different workouts are also displayed and divided in a pie chart."}
+                    tech={"Node.js, Express, Mongoose, MongoDB."}
                     githubLink={"https://github.com/charliecan2/WorkoutLog"}
                     deployedLink={"https://workout-log-app.herokuapp.com/"}
                     />

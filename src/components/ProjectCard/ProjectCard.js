@@ -8,8 +8,9 @@ function ProjectCard(props){
                 <img src={props.imagesrc} className="card-img-top" alt={props.title} />
             </a> 
             <div className="card-body">
-                <h5 className="card-title">{props.title}</h5>
+                <h5 className="card-title project-title">{props.title}</h5>
                 <p className="card-text project-description">{props.description}</p>
+                <h5 className="card-subtitle text-muted"><b>Technologies Used:</b> {props.tech}</h5>
                 <div className="github-repo-btn">
                     <a href={props.githubLink} target="_blank" type="button" class="btn btn-dark repo-btn-content">
                         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
