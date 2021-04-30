@@ -1,177 +1,220 @@
 body {
-    background: 
-    linear-gradient(
-        rgba(0, 0, 0, 0.1), 
-        rgba(0, 0, 0, 0.1)
-    ),
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
     url(https://i.imgur.com/obmijPZ.jpg);
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: center;
-    background-blend-mode: darken;
-    
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: darken;
 }
 #contact-header {
-    font-family: 'PT Serif', serif;
-    text-align: left;
-    margin-left: 20px;
+  font-family: 'PT Serif', serif;
+  text-align: left;
+  margin-left: 20px;
 }
 a:any-link {
-    color: black;
+  color: black;
 }
 .nameHeader {
-    text-align: center;
-    margin-top: 200px;
-    font-family: 'IMB Plex Sans', sans-serif;
+  text-align: center;
+  margin-top: 200px;
+  font-family: 'IMB Plex Sans', sans-serif;
 }
 #nameHead {
-    margin-right: 13px;
-    font-size: 48px;
-    font-weight: 700px;
-    color: rgb(224, 224, 224);
+  margin-right: 13px;
+  font-size: 48px;
+  font-weight: 700px;
+  color: rgb(224, 224, 224);
 }
 #titleHead {
-    padding: 18px;
-    font-size: 32px;
-    font-weight: 400px;
-    color: rgb(224, 224, 224);
+  padding: 18px;
+  font-size: 32px;
+  font-weight: 400px;
+  color: rgb(224, 224, 224);
 }
 .profLinks {
-    font-family: 'IBM Plex Sans', sans-serif;
-    font-weight: 300;
-    padding: 10px;
-    margin: 4px;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 300;
+  padding: 10px;
+  margin: 4px;
 }
 .card {
-    margin-top: 20px;
-    margin-left: auto;
-    margin-right: auto;
+  box-shadow: 0 0 20px rgba(200, 200, 200, 0.5);
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.about-card {
+  padding: 5mm;
+  display: flex;
+  flex-direction: column;
 }
 .card-header {
-    font-family: 'IBM Plex Sans', sans-serif;
-    font-size: 28px;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 28px;
 }
 .card-text {
-    font-family: 'IBM Plex Sans', sans-serif;
-    font-size: 18px;
-    font-weight: 400px;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 400px;
 }
-.navbar{
-    background-color:rgb(75, 75, 75);
+.navbar {
+  background-color: rgb(75, 75, 75);
 }
-.navbar-brand{
-    font-family: 'PT Serif', serif;
-    font-size: 30px;
+.navbar-brand {
+  font-family: 'PT Serif', serif;
+  font-size: 30px;
 }
-.self-image{
-    float: left; 
-    margin-right: 20px; 
-    max-width: fit-content;
-    max-height: fit-content;
+.self-image {
+  float: left;
+  margin-left: 20px;
+  max-width: 100%;
+  max-height: fit-content;
+  border-radius: 50%;
+  border: 4px solid;
+  border-color: black;
+  margin-top: 25px;
+  margin-bottom: 20px;
 }
-.about-heading{
-    font-family: 'PT Serif', serif;
+.profile-sidebar {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
 }
-.about-paragraph{
-    font-family: 'PT Serif', serif;
-    font-size: large;
-    line-height: 30px;
+.profile-main {
+  text-align: center;
 }
-.github-repo-btn{
-    text-align: center; margin-top: 20px;
+.profile-name {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 700;
+  line-height: 50px;
 }
-.repo-btn-content{
-    text-align: center; color: white;
+.profile-position {
+  font-family: 'PT Serif', serif;
+  font-size: large;
+  color: rgba(0, 0, 0, 0.5);
+  margin-top: 5mm;
 }
-.project-title{
-    font-family: 'PT Serif', serif;
-    font-weight: 700;
-    font-size: 24px;
+.profile-body {
+  font-family: 'PT Serif', serif;
+  line-height: 30px;
+  opacity: 0.8;
 }
-.project-description{
-    height: fit-content;
+.line-dash {
+  width: 70%;
 }
-.portfolio-header{
-    font-family: 'PT Serif', serif;
-    font-size: 48px;
-    text-align: center;
-    color: white;
+.github-repo-btn {
+  text-align: center;
+  margin-top: 20px;
 }
-.card-column{
-    margin-top: 30px;
+.repo-btn-content {
+  text-align: center;
+  color: white;
 }
-.contact-card{
-    width: 30rem;
+.project-title {
+  font-family: 'PT Serif', serif;
+  font-weight: 700;
+  font-size: 24px;
 }
-.gif-column{
-    margin-top: 30px;
+.project-description {
+  height: fit-content;
 }
-.ed-gif{
-    width:100%;
-    height:0;
-    padding-bottom:68%;
+.portfolio-header {
+  font-family: 'PT Serif', serif;
+  font-size: 48px;
+  text-align: center;
+  color: white;
 }
-.giphy-embed{
-    position:absolute
+.card-column {
+  margin-top: 30px;
 }
-.techHeader{
-    font-family: 'PT Serif',  serif;
-    font-weight: 700;
-    font-size: 48px;
-    text-align: center;
-    color: white;
+.contact-card {
+  width: 30rem;
 }
-.htmlIcon, .cssIcon, .jsIcon, .nodeIcon, .reactIcon, .sassIcon {
-    line-height: 80px;
-    font-size: 72px;
-    width: 90%;
-    margin-top: 24px;
-    margin-bottom: 24px;
-    transition-duration: 350ms;
-    transition-property: color, transform;
+.gif-column {
+  margin-top: 30px;
 }
-.faIcon{
-    text-align: center;
+.ed-gif {
+  width: 100%;
+  height: 0;
+  padding-bottom: 68%;
 }
-.htmlIcon{
-    color: rgb(255, 100, 0);
+.giphy-embed {
+  position: absolute;
 }
-.cssIcon{
-    color: rgb(0, 100, 255);
+.techHeader {
+  font-family: 'PT Serif', serif;
+  font-weight: 700;
+  font-size: 48px;
+  text-align: center;
+  color: white;
 }
-.jsIcon{
-    color :rgb(200, 200, 0);
+.htmlIcon,
+.cssIcon,
+.jsIcon,
+.nodeIcon,
+.reactIcon,
+.sassIcon {
+  line-height: 80px;
+  font-size: 72px;
+  width: 90%;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  transition-duration: 350ms;
+  transition-property: color, transform;
 }
-.nodeIcon{
-    color: rgb(0, 130, 112);
+.faIcon {
+  text-align: center;
 }
-.reactIcon{
-    color: rgb(20, 200, 255);
+.htmlIcon {
+  color: rgb(255, 100, 0);
 }
-.sassIcon{
-    color: rgb(190, 95, 110);
+.cssIcon {
+  color: rgb(0, 100, 255);
 }
-.htmlIcon:hover{
-    color: rgb(255, 60, 0);
-    transform: scale(1.25);
+.jsIcon {
+  color: rgb(200, 200, 0);
 }
-.cssIcon:hover{
-    color: rgb(0, 60, 255);
-    transform: scale(1.25);
+.nodeIcon {
+  color: rgb(0, 130, 112);
 }
-.jsIcon:hover{
-    color :rgb(200, 160, 0);
-    transform: scale(1.25);
+.reactIcon {
+  color: rgb(20, 200, 255);
 }
-.nodeIcon:hover{
-    color: rgb(0, 90, 112);
-    transform: scale(1.25);
+.sassIcon {
+  color: rgb(190, 95, 110);
 }
-.reactIcon:hover{
-    color: rgb(20, 160, 255);
-    transform: scale(1.25);
+.htmlIcon:hover {
+  color: rgb(255, 60, 0);
+  transform: scale(1.25);
 }
-.sassIcon:hover{
-    color: rgb(190, 35, 110);
-    transform: scale(1.25);
+.cssIcon:hover {
+  color: rgb(0, 60, 255);
+  transform: scale(1.25);
+}
+.jsIcon:hover {
+  color: rgb(200, 160, 0);
+  transform: scale(1.25);
+}
+.nodeIcon:hover {
+  color: rgb(0, 90, 112);
+  transform: scale(1.25);
+}
+.reactIcon:hover {
+  color: rgb(20, 160, 255);
+  transform: scale(1.25);
+}
+.sassIcon:hover {
+  color: rgb(190, 35, 110);
+  transform: scale(1.25);
+}
+
+@media (min-width: 900px) {
+  .profile-main {
+    text-align: left;
+    margin-left: 2em;
+  }
+  .line-dash {
+    margin-left: 0;
+  }
 }
